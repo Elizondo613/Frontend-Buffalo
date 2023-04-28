@@ -62,7 +62,7 @@ export default function ProductoNuevo () {
                 <Form.Control type="number" placeholder="PrecioVenta..." />
               </Form.Group>
               <Form.Group className="mb-3 col-6" controlId="inputPrecioCompra">
-                <Form.Label>Nombre</Form.Label>
+                <Form.Label>Precio compra</Form.Label>
                 <Form.Control type="number" placeholder="PrecioCompra..." />
               </Form.Group>
               <Form.Group className="mb-3 col-6" controlId="inputImagen">
