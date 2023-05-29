@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Car from './Car';
 
 export default function Inventario() {
 
@@ -27,6 +28,9 @@ export default function Inventario() {
 
     return(
         <>
+        <div  className="row justify-content-sm-center col-lg-5 h-100">
+            <Car/>
+        </div>
         <section className='h-100'>
             <div className='container h-100'>
                 <div className='row justify-content-sm-center h-100'>

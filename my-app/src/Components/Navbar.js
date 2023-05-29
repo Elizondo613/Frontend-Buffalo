@@ -12,7 +12,7 @@ function BasicExample() {
   return (
     <Router>
         <div>
-            <Navbar bg="dark" expand="lg">
+            <Navbar bg="secondary" expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to={"/"}>Buffalo Licores</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
